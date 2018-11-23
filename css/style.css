@@ -1,35 +1,68 @@
-.header{
-	background-color: green;
-	height: 40px;
+.mainbox, .leftside, .main, .rightside{
+    height: 100%;
 }
-#menu {
-	position: relative;
-	top: 10px;
 
+
+.mainbox{
+    background-color: coral;
+    width: 800px;
+    margin: 0px auto;
+    display: table;
 }
-#menu li:hover{
-	background-color: white
+.menu{
+    background-color: brown;
 }
-.footer{
-	background-color: yellow;
+
+.leftside{
+    background-color: darkgreen;
+    width: 100px;
+    float:left;
 }
-.left{
-	background-color:red;
-}
+
 .main{
-	background-color: blue;
+    background-color: darkkhaki;
+    width: 600px;
+    float:left;
 }
-.right{
-	background-color: azure;
-	float: left;
-	width: 600px;
+
+.rightside{
+    background-color: aliceblue;
+    width: 100px;
+    float: left;
 }
-.box{
-	background-color: orange;
-	width: 100px;
-	margin: 0px auto;
+
+.footer{
+    background-color: cadetblue;
 }
-#menu 
- li a{
- color: blue
+
+.menu{
+    height: 34px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: darkgreen;
+    position: relative;
+    top:8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.mgallery{
+    text-align: center;
+}
+
+.gallery{
+    max-width: 100px;
+}
+
+.mgallery a{
+    text-decoration: none;
 }
